@@ -54,6 +54,7 @@ nav {
 
 #head {
   display: flex;
+  justify-content: center;
   justify-items: center;
   align-items: center;
   text-align: center;
