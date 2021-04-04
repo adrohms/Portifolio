@@ -1,0 +1,7 @@
+Watch and do:
+
+1. Build a Portfolio Website & Deploy:
+https://www.youtube.com/watch?v=r_hYR53r61M&ab_channel=TraversyMedia
+
+2. Angular Crash Course:
+https://www.youtube.com/watch?v=Fdf5aTYRW0E&t=151s&ab_channel=TraversyMedia

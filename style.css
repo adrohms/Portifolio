@@ -1,0 +1,166 @@
+:root{
+  --linearColor: rgb(122, 70, 170);
+  --linearGradient: rgb(122, 70, 170);
+  --borderColor: #353434;
+  --titleText: #353434;
+  --normalText: #4b4b4b;
+  --pageColor: white;
+
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ 
+}
+h1, h2, h3, h4, h5, h6 {
+  color: var(--titleText);
+
+}
+p, li, span, label, input, textarea{
+  color: var(--normalText)
+}
+section {
+  border-bottom: solid 1px var(--borderColor);
+
+}
+nav {
+  background: var(--linearColor);
+  background: var(--linearGradient);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.svgFather{
+  margin: 2px;
+}
+
+#head {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+#meSelf{
+  
+
+  box-shadow: -5px 7px 22px 5px rgba(0,0,0,0.85);
+  border-radius: 100%;
+  margin-top: ;
+  height: 100%;
+  width: 25%;
+  align-content: center;
+  justify-content: center;
+}
+img {
+  width: 100%;
+  box-sizing: border-box;
+}
+#mainElements {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  
+  
+}
+#infoShit {
+  
+  
+}
+#wrapper{
+  display: grid;
+  grid-template-rows: 150px 600px 500px 100px ;
+  grid-template-areas: 
+  "#head"
+  "#mainElement"
+  "#extra"
+  "#foot";
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+  justify-content: flex-end;
+  
+ 
+  
+}
+li{
+  font-size: 0.9rem;
+  font-weight: bolder;
+  list-style: none;
+  margin: -5px;
+  border-radius: 50px;
+  padding: 20px;
+  
+  background: var(--linearColor);
+  background: var(--linearGradient);
+  box-shadow: -5px 7px 22px 5px rgba(0,0,0,0.85);
+  
+}
+li:hover{
+  z-index: 1;
+}
+
+#page3, #page2, #page1{
+  
+  box-shadow: -5px 7px 22px 5px rgba(0,0,0,0.85);
+  
+  border-radius: 9px;
+  padding-bottom: 1em;
+}
+
+#page1 {
+  
+  position: absolute;
+  top: 5%;
+  left: 30%;
+  height: 250px;
+  height: 80%;
+  /* z-index: 1;
+  position: relative; */
+  background: var(--pageColor);
+  max-width: 70%;
+
+}
+#page2 {
+  position: absolute;
+  top: 7%;
+  left: 20%;
+  max-width: 70%;
+  height: 80%;
+  background: var(--pageColor);
+}
+#page3 {
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  max-width: 70%;
+  height: 80%;
+  background: var(--pageColor);
+  
+}
+svg {
+  margin-right: 0.5rem;
+  width: 0.5rem;
+}
+
+#extra {
+  background: rgb(156, 156, 156);
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+aside {
+  border-right: solid 1px var(--borderColor);
+  padding: 2px;
+}
+article {
+  margin-left: 5px;
+}
+
