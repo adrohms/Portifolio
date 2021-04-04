@@ -38,26 +38,11 @@ nav {
 }
 
 #head {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
+  justify-self: center;
+  align-self: center;
 }
-#meSelf{
-  
 
-  box-shadow: -5px 7px 22px 5px rgba(0,0,0,0.85);
-  border-radius: 100%;
-  margin-top: ;
-  height: 100%;
-  width: 25%;
-  align-content: center;
-  justify-content: center;
-}
-img {
-  width: 100%;
-  box-sizing: border-box;
-}
+
 #mainElements {
   
   display: flex;
@@ -67,26 +52,31 @@ img {
   
   
 }
-#infoShit {
-  
-  
-}
+
 #wrapper{
   display: grid;
-  grid-template-rows: 150px 600px 500px 100px ;
+  grid-template-rows: 150px 500px 500px 100px ;
   grid-template-areas: 
   "#head"
   "#mainElement"
   "#extra"
   "#foot";
+  max-width: 700px;
+  background-color: rgb(255, 191, 146);
+  margin-left: auto;
+  margin-right: auto;
+  
 }
+  
+
 
 ul {
   display: flex;
   flex-direction: row;
   justify-items: center;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
+  margin-bottom: 30px;
   
  
   
@@ -111,18 +101,23 @@ li:hover{
 #page3, #page2, #page1{
   
   box-shadow: -5px 7px 22px 5px rgba(0,0,0,0.85);
+  height: 60%;
   
   border-radius: 9px;
   padding-bottom: 1em;
+}
+#page3 p, #page2 p, #page1 p{
+  
+  padding: 10px;
 }
 
 #page1 {
   
   position: absolute;
   top: 5%;
-  left: 30%;
-  height: 250px;
-  height: 80%;
+  left: 10%;
+  
+  
   /* z-index: 1;
   position: relative; */
   background: var(--pageColor);
@@ -134,7 +129,7 @@ li:hover{
   top: 7%;
   left: 20%;
   max-width: 70%;
-  height: 80%;
+  
   background: var(--pageColor);
 }
 #page3 {
@@ -142,7 +137,7 @@ li:hover{
   top: 10%;
   left: 25%;
   max-width: 70%;
-  height: 80%;
+  
   background: var(--pageColor);
   
 }
