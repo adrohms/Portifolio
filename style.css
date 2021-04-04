@@ -194,6 +194,16 @@ aside {
 article {
   margin-left: 5px;
 }
+article a {
+  font-size: 1rem;
+}
+article p, aside p {
+  font-size: 0.9rem;
+}
+article h3, aside h3 {
+  font-size: 1.1rem;
+}
+
 
 footer {
   margin-top: 15px;
