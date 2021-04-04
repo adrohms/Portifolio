@@ -83,13 +83,16 @@ nav {
   position: absolute;
   box-shadow: -5px 7px 22px 5px rgba(0,0,0,0.85);
   overflow: auto;
-  
   display: flex;
   flex-direction: column;
   align-content: space-between;
   border-radius: 9px;
   padding-bottom: 1em;
   background: var(--pageColor);
+  transform: scale(1) ;
+  transition: ease-in 0.2s all;
+
+  
   
 }
 
