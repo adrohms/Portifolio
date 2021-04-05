@@ -7,6 +7,8 @@ let about = document.getElementById('aboutB');
 let contact = document.getElementById('contactB');
 let home = document.getElementById('homeB');
 
+
+
 about.addEventListener('click', () => {
     if (page1.style.transform == 'scale(1)') {
         page1.style.transform = 'scale(0)';
