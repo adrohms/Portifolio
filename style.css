@@ -147,7 +147,9 @@ ul {
   justify-items: center;
   justify-content: center;
   
- 
+}
+li {
+  list-style: none;
 }
 button {
   
@@ -161,7 +163,7 @@ button {
   height: 4em;
   background: var(--navColor);
   box-shadow: -5px 7px 22px 5px rgba(0,0,0,0.85);
-  scale: 1;
+ 
   stroke: none;
   border: none;
   padding-top: 5px;
