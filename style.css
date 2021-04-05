@@ -150,27 +150,34 @@ ul {
  
 }
 button {
+  
   font-size: 0.9rem;
   font-weight: bolder;
-  
-  
-
-  
-	
-	border: none;
-	
 	margin: -5px;
 	cursor: auto; 
-	outline: snow;
-
- 
+	outline: none;
   border-radius: 100%;
   width: 4em;
   height: 4em;
   background: var(--navColor);
   box-shadow: -5px 7px 22px 5px rgba(0,0,0,0.85);
   
+  stroke: none;
+  border: none;
+  padding-top: 5px;
+  border: groove white 1px;
 }
+p i {
+  font-size: 1.5rem;
+}
+i {
+  
+  font-size: 2.2rem ;
+  
+
+  
+}
+
 button:hover{
   z-index: 1;
   

@@ -42,7 +42,33 @@ home.addEventListener('click', () => {
         
         
     }
+
 });
+
+// Uma vez que eu mudar o estado da pagina, a outra passa a ser anterior
+page1.addEventListener('click', () => {
+    if (page1.style.zIndex != 1){
+        page1.style.zIndex = 1;
+        page2.style.zIndex = 0;
+        page3.style.zIndex = 0;
+    };
+});
+page2.addEventListener('click', () => {
+    if (page2.style.zIndex != 1){
+        page2.style.zIndex = 1;
+        page1.style.zIndex = 0;
+        page3.style.zIndex = 0;
+    };
+});
+page3.addEventListener('click', () => {
+    if (page3.style.zIndex != 1){
+        page3.style.zIndex = 1;
+        page2.style.zIndex = 0;
+        page1.style.zIndex = 0;
+    };
+});
+
+
 
 
  
