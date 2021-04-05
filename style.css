@@ -91,11 +91,13 @@ nav {
   overflow: auto;
   display: flex;
   flex-direction: column;
-  align-content: space-between;
+  
+  justify-items: flex-end;
   border-radius: 9px;
   padding-bottom: 1em;
   background: var(--pageColor);
   transform: scale(0)  ;
+  
   
   
   transition: ease 0.2s all;
@@ -104,9 +106,20 @@ nav {
   
 }
 
+#contactB p{
+  display: grid;
+  grid-template-columns: 0.05fr 1fr;
+  padding: 10px;
+  justify-items: flex-start;
+  
+}
+
 
 .pages p{
+  
   padding: 10px;
+  
+  
 }
 .pages h3{
   
@@ -185,8 +198,9 @@ button:hover{
   
 }
 svg {
-  margin-right: 0.5rem;
-  width: 0.5rem;
+  
+  
+ 
 }
 
 #extra {
